@@ -1,0 +1,94 @@
+.navbar{
+    background-color:#3C486B;
+}
+.navbar-brand{
+font-size: 40px;
+font-family:'Times New Roman', Times, serif;
+}
+.btn:hover{
+background-color: #F45050;
+color: aliceblue;
+
+}
+.btn{
+    color:  #F45050 ;
+    border-color:  #F45050 ; 
+}
+.btn:focus{
+    color: aliceblue;
+    background-color:  #F45050 ;
+    border-color:  #F45050 ;
+}
+.card{
+    position: relative;
+    background-color:  #ddb1b1;
+    border-color:#001C30;
+    transition: 0.4s;
+}
+.card:hover{
+    border-color:#001C30 ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.1);
+    cursor:pointer;
+    background-color:  #bb3a3a;
+    color: aliceblue;
+    z-index: 1;
+}
+.button2{
+    background-color:  #6b707d;
+    border-color:#001C30 ;
+    color: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.button2:hover{
+    border-color:#001C30 ;
+    background-color:  #262d45;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+.news-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.button3{
+    width: 100%;
+    background-color: #EA906C;
+    border-color:#B31312 ;
+    color: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.button3:hover{
+    border-color:#B31312 ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(1.1);
+}
+#buttonbottom{
+  display: flex;
+  justify-content: center;  
+  align-items: stretch;
+
+}
+.newsdate{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+  top: 8px;
+  right: 16px;
+  color:aliceblue;
+  border: 1px solid #344033;
+  background-color: #4c5456;
+}
+#whole-box{
+    display:none;
+}
+#loader{
+    display:block;
+}
